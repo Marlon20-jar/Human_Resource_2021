@@ -1,20 +1,30 @@
 {
   "name": "human-resources-2021",
   "version": "1.0.0",
-  "description": "An API REST Human Resource using express.js",
+  "description": "This is a project for HR node.js",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marlon20-jar/Human_Resource_2021.git"
+  },
   "keywords": [
-    "api",
-    "rest",
+    "node",
     "express",
-    "node.js"
+    "jwt",
+    "mysql"
   ],
   "author": "Marlon Hernández, Milton Alvarez y Daniel Ibarra",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marlon20-jar/Human_Resource_2021/issues"
+  },
+  "homepage": "https://github.com/Marlon20-jar/Human_Resource_2021#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
   }
 }

@@ -1,0 +1,28 @@
+{
+    "empleados": [{ 
+        "id": 1,
+        "nombre": "Luis",
+        "apellidos": "Montes Moreno",
+        "telefono": "4426008745",
+        "correo_electronico": "Luis.oz@outlook.com",
+        "direccion": "Av. de la Luz"
+
+    }, {
+
+        "id": 2,
+        "nombre": "Pablo Jair",
+        "apellidos": "Ortiz Gomez",
+        "telefono": "4422009775",
+        "correo_electronico": "Pato@outlook.com",
+        "direccion": "San Jose de los Olvera "
+    }, {
+        "id": 3,
+        "nombre": "Mauricio",
+        "apellidos": "Saldivar Sanchez",
+        "telefono": "4424899645",
+        "correo_electronico": "IO.pack@gmail.com",
+        "direccion": "Av. Constituyentes"
+    }
+
+    ]
+}
