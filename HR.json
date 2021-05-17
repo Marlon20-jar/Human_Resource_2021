@@ -1,27 +1,76 @@
 {
     "empleados": [{ 
         "id": 1,
-        "nombre": "Luis",
-        "apellidos": "Montes Moreno",
-        "telefono": "4426008745",
-        "correo_electronico": "Luis.oz@outlook.com",
-        "direccion": "Av. de la Luz"
+        "name": "Luis",
+        "surnames": "Montes Moreno",
+        "phone": "4426008745",
+        "email": "Luis.oz@outlook.com",
+        "direction": "Av. de la Luz"
 
     }, {
 
         "id": 2,
-        "nombre": "Pablo Jair",
-        "apellidos": "Ortiz Gomez",
-        "telefono": "4422009775",
-        "correo_electronico": "Pato@outlook.com",
-        "direccion": "San Jose de los Olvera "
+        "name": "Pablo Jair",
+        "surnames": "Ortiz Gomez",
+        "phone": "4422009775",
+        "email": "Pato@outlook.com",
+        "direction": "San Jose de los Olvera "
     }, {
         "id": 3,
-        "nombre": "Mauricio",
-        "apellidos": "Saldivar Sanchez",
-        "telefono": "4424899645",
-        "correo_electronico": "IO.pack@gmail.com",
-        "direccion": "Av. Constituyentes"
+        "name": "Mauricio",
+        "surnames": "Saldivar Sanchez",
+        "phone": "4424899645",
+        "email": "IO.pack@gmail.com",
+        "direction": "Av. Constituyentes"
+    },  {
+        "id": 4,
+        "name": "Milton",
+        "surnames": "Hernandez Ibarra",
+        "phone": "4427886678",
+        "email": "Isai.yet@gmail.com",
+        "direction": "Hercules"
+    },  {
+        "id": 5,
+        "name": "Carlos",
+        "surnames": "Cruz Sanchez",
+        "phone": "4426825690",
+        "email": "Uzumaki@gmail.com",
+        "direction": "Candiles"
+    },  {
+        "id": 6,
+        "name": "Viridiana",
+        "surnames": "Trenado Sanchez",
+        "phone": "4423678977",
+        "email": "Adita.put@gmail.com",
+        "direction": "El pueblito"
+    },  {
+        "id": 7,
+        "name": "Denisse",
+        "surnames": "Arreola Arreola",
+        "phone": "4426076543",
+        "email": "Cielo@gmail.com",
+        "direction": "Lomas del Mirador"
+    },  {
+        "id": 8,
+        "name": "Paola",
+        "surnames": "Hernández Guerrero ",
+        "phone": "4422869254",
+        "email": "paola.366@outlook.com",
+        "direction": "Carrillo"
+    },  {
+        "id": 9,
+        "name": "Laura Damaris",
+        "surnames": "Maldonado Navarro",
+        "phone": "4426005798",
+        "email": "DamaG.260@outlook.com",
+        "direction": "Plutarco Elias Calles"
+    },  {
+        "id": 10,
+        "name": "Claudia",
+        "surnames": "Trejo Portillo",
+        "phone": "4422567032",
+        "email": "Neko.032@gmail.com",
+        "direction": "San Rosa de Jáuregui"
     }
 
     ]
