@@ -14,7 +14,7 @@
         "last_name": "Ortiz Gomez",
         "phone": "4422009775",
         "email": "Pato@outlook.com",
-        "direction": "San Jose de los Olvera "
+        "direction": "San Jose de los Olvera"
     }, {
         "id": 3,
         "name": "Mauricio",
@@ -53,7 +53,7 @@
     },  {
         "id": 8,
         "name": "Paola",
-        "last_name": "Hernández Guerrero ",
+        "last_name": "Hernández Guerrero",
         "phone": "4422869254",
         "email": "paola.366@outlook.com",
         "direction": "Carrillo"
