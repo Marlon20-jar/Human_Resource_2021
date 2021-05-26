@@ -2,17 +2,19 @@ window.onload = init;
 
 function init(){
     if(!localStorage.getItem("token")){
+
+    
     document.querySelector('.btn-secondary').addEventListener('click', function(){
-        window.location.href = "login.html"
+        window.location.href = "login1.html"
     });
 
 
-document.querySelector('.btn-primary').addEventListener('click', signin)
+        document.querySelector('.btn-primary').addEventListener('click', signin)
+
     }
     else{
-        window.location.href = "Interfaz.html";
-      }
-    
+        window.location.href = "interfaz.html";
+    }
 }
 
 function signin (){
@@ -28,12 +30,11 @@ function signin (){
             user_name: name,
             user_mail: mail,
             user_password: pass
-
         }
     }).then(function(res){
         console.log(res);
         alert("Registro exitoso");
-        window.location.href ="login.html";
+        window.location.href ="login1.html";
 
     }).catch(function(err){
         console.log(err);
