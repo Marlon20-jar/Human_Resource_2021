@@ -33,7 +33,7 @@ Entrar al enlace de la Api mostrado anteriormente
 
 Antes de que pueda acceder a la administración de los empleados tendrá que primero logiarse, Si no está logiado entonces no podrá acceder a la interfaz. A continuación, se mostrará algunas de las funciones de la interfaz:
 
-- Primero Inicie sesión si esque la empresa le brindo un usuario y una clave
+- Primero Inicie sesión si esque la empresa le brindo un usuario y contraseña
 
 <img src="Muestra1.png">
 
@@ -96,6 +96,12 @@ Aqui se muestra la estructura de un archivo json la cual fue referenciada para r
     }
 ```
 
+#### Servidor API de recursos Humanos
+
+En esta sección se estableceran las rutas, dependencias y middleware la cual el servidor estara en levantamiento y tambien que todo el código elaborado en la API se redireccione a un unico archivo index.js para que este este funcionando correctamente.
+
+<img src="Muestra11.png">
+
 ## Herramientas 🛠️
 
 * [Node.js](https://nodejs.org/es/) - El framework con entorno de ejecución de JavaScript orientado a eventos  asíncronos
@@ -119,7 +125,6 @@ _Todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
 * **Milton Isaí Alvarez Marquez** - *Front-end y Backend* - [Miam043](https://github.com/Miam043)
 
 
-- Si tiene alguna duda al respecto del codigo puede contactar con Daniel Ibarra Maldonado por medio de la red social Facebook: https://www.facebook.com/saed.maldonado.9 
-
-- ⌨️ con ❤️ por [DanielSaed](https://github.com/DanielSaed) 😊
+Si tiene alguna duda al respecto del codigo puede contactar con Daniel Ibarra Maldonado por medio de la red social Facebook: https://www.facebook.com/saed.maldonado.9 
+o tambien por [DanielSaed](https://github.com/DanielSaed) 😊
 
