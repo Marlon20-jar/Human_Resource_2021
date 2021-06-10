@@ -1,4 +1,4 @@
-const jwt = require('jsonwebtoken');
+var jwt = require('jsonwebtoken');
 
 module.exports = (req,res, next)=>{
     try{
@@ -11,3 +11,5 @@ module.exports = (req,res, next)=>{
       return res.json({code:401, message:"No tienes permiso:("});
     }
   };
+
+  
