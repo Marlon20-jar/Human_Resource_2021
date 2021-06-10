@@ -1,20 +1,18 @@
 window.onload = init;
 
 function init(){
-    if(!localStorage.getItem("token")){
-
-    
+    if(localStorage.getItem("token")){
     document.querySelector('.btn-secondary').addEventListener('click', function(){
-        window.location.href = "login1.html"
+        window.location.href = "interfaz.html"
     });
 
 
-        document.querySelector('.btn-primary').addEventListener('click', signin)
-
+document.querySelector('.btn-primary').addEventListener('click', signin)
     }
     else{
-        window.location.href = "interfaz.html";
-    }
+        window.location.href = "Interfaz.html";
+      }
+    
 }
 
 function signin (){
@@ -25,16 +23,17 @@ function signin (){
 
     axios({
         method: 'post',
-        url: 'http://localhost:3000/user/signin',
+        url: 'https://recursoshumanosdanielibarra.herokuapp.com/user/signin',
         data:{
             user_name: name,
             user_mail: mail,
             user_password: pass
         }
+
     }).then(function(res){
         console.log(res);
         alert("Registro exitoso");
-        window.location.href ="login1.html";
+        window.location.href ="interfaz.html";
 
     }).catch(function(err){
         console.log(err);

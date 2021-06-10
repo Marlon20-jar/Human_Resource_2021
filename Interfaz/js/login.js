@@ -4,9 +4,9 @@ function init(){
     if(!localStorage.getItem("token")){
 
     
-    document.querySelector('.btn-secondary').addEventListener('click', function(){
-        window.location.href = "signin.html"
-    });
+    //document.querySelector('.btn-secondary').addEventListener('click', function(){
+    //    window.location.href = "signin.html"
+   // });
 
 
         document.querySelector('.btn-primary').addEventListener('click', login)
@@ -24,7 +24,7 @@ function login (){
 
     axios({
         method: 'post',
-        url: 'http://localhost:3000/user/login',
+        url: 'https://recursoshumanosdanielibarra.herokuapp.com/user/login',
         data:{
             user_mail: mail,
             user_password: pass
