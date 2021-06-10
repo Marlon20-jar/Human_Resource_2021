@@ -111,11 +111,6 @@ En esta sección se estableceran las rutas, dependencias y middleware la cual el
 * [CSS](https://developer.mozilla.org/es/docs/Web/CSS) - Lenguaje de diseño gráfico 
 * [XAMP](https://www.apachefriends.org/es/index.html) - Distribución de Apache completamente gratuita
 
-## Licencia 📄
-
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
-
-
 ## Autores ✒️
 
 _Todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
