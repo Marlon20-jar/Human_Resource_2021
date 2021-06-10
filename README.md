@@ -35,11 +35,11 @@ Antes de que pueda acceder a la administración de los empleados tendrá que pri
 
 - Primero Inicie sesión si esque la empresa le brindo un usuario y una clave
 
-<img src="./Muestra1.PNG">
+<img src="Muestra1.PNG">
 
 - Si la empresa le da acceso a la tabla de los empleados podra registrar un nuevo usuario, esta se encuentra en la parte superior de la intefaz de la API, esto se hizo para que no cualquier persona pueda registrarse en nuestra API.
 
-<img src="./Muestra2.PNG">
+<img src="Muestra2.PNG">
 
 Al iniciar en la API de recursos Humanos tendrá acceso a la tabla la cual se muestra la lista de empleados que podrá:
 - Agregar empleados a la base de datos. (Botón "Agregar Empleado")
@@ -47,7 +47,7 @@ Al iniciar en la API de recursos Humanos tendrá acceso a la tabla la cual se mu
 - Eliminar empleados en la base de datos. (Botón "Borrar Empleado ")
 - Si la empresa te da acceso podrás Registrar nuevo usuario. (Botón "Registrar Usuario")
 
-<img src="./Muestra3.PNG">
+<img src="Muestra3.PNG">
 
 ##### Manual de Administrador
 
@@ -55,33 +55,33 @@ La API para la tabla user dispone de 3 métodos de petición, que se corresponde
 
 - Una llamada GET al '/user' devuelve la información de todos los usuarios registrados en la base de datos.
 
-<img src="./Muestra4.PNG">
+<img src="Muestra4.PNG">
 
 - Una llamada POST "/signin" permite registrar un nuevo usuario en la base de datos. Para poder hacerlo, debes redirigir la ruta en un archivo signin.js, la cual le dará acceso al token y las funciones de repuesta de la API.
 
-<img src="./Muestra5.PNG">
+<img src="Muestra5.PNG">
 
 - Una llamada POST "/login" permite logiarse y tener acceso a la interfaz de la administración de base de datos. Para poder hacerlo, debes redirigir la ruta en un archivo login.js, la cual le dará acceso al token y las funciones de repuesta de la API.
 
-<img src="./Muestra6.PNG">
+<img src="Muestra6.PNG">
 
 La API para la tabla empleados dispone de 4 métodos de petición, que se corresponden en la carpeta routes
 
 - Una llamada GET al '/empleados' devuelve la información de todos los empleados de la base de datos en forma de tabla
 
-<img src="./Muestra7.PNG">
+<img src="Muestra7.PNG">
 
 - Una llamada POST “/insert" permite registrar un nuevo empleado en la base de datos. Para poder hacerlo, debes redirigir la ruta en un archivo insert.js, la cual le dará acceso al token y las funciones de repuesta de la API.
 
-<img src="./Muestra8.PNG">
+<img src="Muestra8.PNG">
 
 - Una llamada DELETE "/:id([0-9]{1,3})" permite borrar un empleado de la base de datos. Para poder hacerlo, debes redirigir la ruta en un archivo delete.js, la cual le dará acceso al token y las funciones de repuesta de la API.
 
-<img src="./Muestra9.PNG">
+<img src="Muestra9.PNG">
 
 - Una llamada PUT al "/:id([0-9]{1,3})" permite editar la información de un empleado ya registrado previamente en la base de datos. Para poder hacerlo, debes redirigir la ruta en un archivo update.js, la cual le dará acceso al token y las funciones de repuesta de la API.
 
-<img src="./Muestra10.PNG">
+<img src="Muestra10.PNG">
 
 ```json
 "empleados": [{ 
