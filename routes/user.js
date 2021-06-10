@@ -3,7 +3,6 @@ const jwt = require('jsonwebtoken');
 const user = express.Router();
 const db = require('../config/database');
 
-
 user.post("/signin",async(req,res,next) => {
 const {user_name,user_mail,user_password} = req.body;
 
@@ -14,7 +13,6 @@ const rows = await db.query(query);
 
 if(rows.affectedRows ==1) {
   return res.status(201).json({code:201, mesagge: "Usuario registrado correctamente"});
-
 }
 return res.status(500).json({code:500, message:"Ocurrio un error "});
 }
@@ -32,7 +30,7 @@ user.post("/login",async(req,res,next) => {
     const token = jwt.sign({
     user_id: rows[0].user_id,
     user_mail: rows[0].user_mail
-    }, "debugkey");
+    }, "debugkey",{expiresIn: 10});
     return res.status(200).json({code:200, message: token })
   }
   else{

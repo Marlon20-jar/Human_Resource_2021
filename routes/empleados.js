@@ -2,14 +2,14 @@ const express = require ('express');
 const empleados = express.Router();
 const db = require('../config/database')
 
-empleados.post("/", async (req, res, next) => {
+empleados.post("/insert", async (req, res, next) => {
     const {emp_id, emp_name, emp_last_name, emp_phone, emp_email, emp_direction} = req.body;
 
     if (emp_id && emp_name && emp_last_name && emp_phone && emp_email && emp_direction){
     let query = "INSERT INTO empleados(emp_id, emp_name, emp_last_name, emp_phone, emp_email, emp_direction)";
-    query += ` VALUES('${emp_id}','${emp_name}','${emp_last_name}',${emp_phone},'${emp_email}','${emp_direction}')`;
-
+    query += ` VALUES ('${emp_id}','${emp_name}','${emp_last_name}',${emp_phone},'${emp_email}','${emp_direction}')`;
     const rows = await db.query(query);
+    
     console.log(rows);
 
     if(rows.affectedRows== 1){
@@ -26,6 +26,7 @@ empleados.delete("/:id([0-9]{1,3})",async(req, res,next) => {
     const rows =await db.query(query);
 
     if(rows.affectedRows ==1){
+      
       return res.status(200).json({code :200, message: "Empleado dado de baja correctamente"});
     }
     return res.status(404).json({code :404, message: "Empleado no encontrado"});
@@ -89,4 +90,16 @@ empleados.get('/:name([A-Za-z]+)', async (req, res, next) =>{
     } 
     return res.status(404).send({ code: 404, message: "Empleado no encontrado"  });
 });
+
+/*empleados.delete('/logout', async (req, res, next)=> {
+
+  const token = jwt.logout;
+  try{
+
+  }
+  catch(error);){
+    next(error);
+  }
+})*/
+
 module.exports = empleados;
