@@ -53,7 +53,7 @@ Al iniciar en la API de recursos Humanos tendrá acceso a la tabla la cual se mu
 
 La API para la tabla user dispone de 3 métodos de petición, que se corresponden en la carpeta routes
 
-- Una llamada GET al '/user' devuelve la información de todos los usuarios registrados en la base de datos.
+- Una llamada GET al "/" devuelve la información de todos los usuarios registrados en la base de datos.
 
 <img src="Muestra4.png">
 
@@ -67,11 +67,11 @@ La API para la tabla user dispone de 3 métodos de petición, que se corresponde
 
 La API para la tabla empleados dispone de 4 métodos de petición, que se corresponden en la carpeta routes
 
-- Una llamada GET al '/empleados' devuelve la información de todos los empleados de la base de datos en forma de tabla
+- Una llamada GET al "/" devuelve la información de todos los empleados de la base de datos en forma de tabla
 
 <img src="Muestra7.png">
 
-- Una llamada POST “/insert" permite registrar un nuevo empleado en la base de datos. Para poder hacerlo, debes redirigir la ruta en un archivo insert.js, la cual le dará acceso al token y las funciones de repuesta de la API.
+- Una llamada POST '/insert' permite registrar un nuevo empleado en la base de datos. Para poder hacerlo, debes redirigir la ruta en un archivo insert.js, la cual le dará acceso al token y las funciones de repuesta de la API.
 
 <img src="Muestra8.png">
 
@@ -83,6 +83,7 @@ La API para la tabla empleados dispone de 4 métodos de petición, que se corres
 
 <img src="Muestra10.png">
 
+Aqui se muestra la estructura de un archivo json la cual fue referenciada para realizar las rutas correspondientes de la API y que el usuario puede interactuar con dichas funciones: 
 ```json
 "empleados": [{ 
         "id": 1,
@@ -94,6 +95,31 @@ La API para la tabla empleados dispone de 4 métodos de petición, que se corres
 
     }
 ```
-Si tiene alguna duda al respecto del codigo puede contactar con Daniel Ibarra Maldonado por medio de la red social Facebook: https://www.facebook.com/saed.maldonado.9 
 
+## Herramientas 🛠️
+
+* [Node.js](https://nodejs.org/es/) - El framework con entorno de ejecución de JavaScript orientado a eventos  asíncronos
+* [Heroku](https://www.heroku.com/) - Plataforma como servicio de computación en la Nube 
+* [Clean DB](https://dblp.org/db/conf/cleandb/index.html) - Base de datos en la Nube
+* [Posman](https://www.postman.com/) - Plataforma de colaboración para el desarrollo de API
+* [CSS](https://developer.mozilla.org/es/docs/Web/CSS) - Lenguaje de diseño gráfico 
+* [XAMP](https://www.apachefriends.org/es/index.html) - Distribución de Apache completamente gratuita
+
+## Licencia 📄
+
+Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+
+
+## Autores ✒️
+
+_Todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
+
+* **Marlon Jair Hernández** - *Backend y Documentación* - [Marlon20-jar](https://github.com/Marlon20-jar)
+* **Daniel Saed Ibarra Maldonado** - *Front-end y Documentación* - [DanielSaed](https://github.com/DanielSaed)
+* **Milton Isaí Alvarez Marquez** - *Front-end y Backend* - [Miam043](https://github.com/Miam043)
+
+
+- Si tiene alguna duda al respecto del codigo puede contactar con Daniel Ibarra Maldonado por medio de la red social Facebook: https://www.facebook.com/saed.maldonado.9 
+
+- ⌨️ con ❤️ por [DanielSaed](https://github.com/DanielSaed) 😊
 
