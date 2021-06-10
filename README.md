@@ -1,7 +1,7 @@
 
 # Human Resources API
 
-#### API REST corporativa para gestionar nuestra base de datos de empleados.
+## API REST corporativa para gestionar nuestra base de datos de empleados 🚀
 
 En este proyecto se creará una API para ayudarnos a controlar los registros de los empleados de la empresa en el área de Recursos Humanos la cual su principal función es un sistema que les permita realizar la administración de los empleados (altas, bajas, consultas y cambios) únicamente a ciertos usuarios dados de alta en el sistema. 
 
@@ -27,7 +27,7 @@ De cada empleado se guarda la siguiente información:
 
 #### ¿Cómo usar la API?
 
-##### Manual de Usuario
+## Manual de Usuario 📋
 
 Entrar al enlace de la Api mostrado anteriormente
 
@@ -49,7 +49,7 @@ Al iniciar en la API de recursos Humanos tendrá acceso a la tabla la cual se mu
 
 <img src="Muestra3.png">
 
-##### Manual de Administrador
+## Manual de Administrador ⌨️
 
 La API para la tabla user dispone de 3 métodos de petición, que se corresponden en la carpeta routes
 
